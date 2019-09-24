@@ -6,7 +6,7 @@ import redis
 import json
 import os
 
-REDIS_URL = os.getenv('REDISTOGO_URL', 'redis://localhost:6379')
+REDIS_URL = os.getenv('REDISTOGO_URL', 'redis://h:p45c966fbcbbd06512090935bcf2b726927fe1646024060c903cbeca9ced521e2@ec2-35-168-81-62.compute-1.amazonaws.com:23279')
 r = redis.StrictRedis.from_url(REDIS_URL)
 
 
